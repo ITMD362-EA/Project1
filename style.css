@@ -6,6 +6,13 @@ body {
   background-position: center center;
 }
 
-#form {
+body {
+  position: relative;
+  text-align: center;
   font-size: 500px;
+}
+
+#email,
+#name {
+  width: 1000px;
 }
