@@ -11,7 +11,7 @@ body {
 
 h1 {
   font-size: 4vw;
-  margin-bottom: 250px;
+  margin-bottom: 2vh;
 }
 
 body {
@@ -37,4 +37,14 @@ body {
   width: 100%; /* This will make the input fields fill their parent container */
   padding: 10px; /* Adding some padding for spacing */
   margin-bottom: 10px; /* Adding margin for separation between elements */
+}
+
+#email,
+#name,
+body > form > input[type="submit"]:nth-child(9) {
+  position: relative;
+  text-align: center;
+  font-size: 1.5vw;
+  width: 7vw;
+  height: 1.5vw;
 }
