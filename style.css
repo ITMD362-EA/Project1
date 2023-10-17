@@ -4,15 +4,37 @@ body {
   /*background-repeat: no-repeat;  This prevents the image from repeating */
   background-attachment: fixed; /* This will keep the background fixed when scrolling */
   background-position: center center;
+  font-family: "Caveat", cursive;
+  font-family: "Onest", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 4vw;
+  margin-bottom: 250px;
 }
 
 body {
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 500px;
+  font-size: 2vw;
+  color: white;
+  border: 30px white solid;
+  padding: 100px;
+  border-radius: 10%;
 }
 
 #email,
 #name {
   width: 1000px;
+}
+
+#email,
+#name {
+  width: 100%; /* This will make the input fields fill their parent container */
+  padding: 10px; /* Adding some padding for spacing */
+  margin-bottom: 10px; /* Adding margin for separation between elements */
 }
