@@ -59,3 +59,20 @@ input {
   display: block;
   margin-bottom: 10px; /* Adjust this value as needed */
 }
+
+/* #name {
+  position: relative;
+  width: 100%;
+  align-items: center;
+} */
+
+#name,
+#email {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+}
+
+body > form > input[type="submit"]:nth-child(5) {
+  margin-top: 10%;
+}
