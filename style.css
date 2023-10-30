@@ -53,3 +53,9 @@ body > form > input[type="submit"]:nth-child(9) {
   width: 7vw;
   height: 1.5vw;
 }
+
+label,
+input {
+  display: block;
+  margin-bottom: 10px; /* Adjust this value as needed */
+}
