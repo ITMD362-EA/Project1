@@ -67,10 +67,12 @@ input {
 } */
 
 #name,
-#email {
+#email,
+#experience {
   display: block;
   margin: 0 auto;
   width: 75%;
+  font-size: 1.5vw;
 }
 
 #email {
@@ -134,3 +136,33 @@ body > form > input[type="submit"]:nth-child(5) {
     font-size: 1vw;
   }
 }
+
+/* header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition: top 1s;
+  z-index: 1000;
+}
+
+header.show {
+  top: 0;
+}
+
+header p {
+  margin: 0;
+}
+
+@keyframes slideIn {
+  from {
+    top: -100px;
+  }
+  to {
+    top: 0;
+  }
+} */
