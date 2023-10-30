@@ -109,3 +109,28 @@ body > form > input[type="submit"]:nth-child(5) {
     font-size: 1.2vw;
   }
 }
+/* Styles for large screens (min-width: 1200px) */
+@media (min-width: 1200px) {
+  body {
+    font-size: 1.2vw;
+  }
+
+  h1 {
+    font-size: 2.5vw;
+    margin-bottom: 1vh;
+  }
+
+  label,
+  input {
+    margin-bottom: 6px;
+  }
+
+  #email,
+  #name {
+    padding: 6px;
+  }
+
+  body > form > input[type="submit"] {
+    font-size: 1vw;
+  }
+}
