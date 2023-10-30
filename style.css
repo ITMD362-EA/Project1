@@ -1,5 +1,5 @@
 body {
-  background-image: url("elements/background.jpg");
+  background-color: gray;
   background-size: cover; /* This will cover the entire background */
   /*background-repeat: no-repeat;  This prevents the image from repeating */
   background-attachment: fixed; /* This will keep the background fixed when scrolling */
