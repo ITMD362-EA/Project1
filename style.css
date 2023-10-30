@@ -1,5 +1,5 @@
 body {
-  background-color: gray;
+  background-color: black;
   background-size: cover; /* This will cover the entire background */
   /*background-repeat: no-repeat;  This prevents the image from repeating */
   background-attachment: fixed; /* This will keep the background fixed when scrolling */
@@ -82,4 +82,30 @@ body > form > input[type="submit"]:nth-child(5) {
   margin: 0 auto;
   width: 32.5%;
   font-size: 1.5vw;
+}
+
+/* Styles for medium-sized screens (min-width: 768px) */
+@media (min-width: 768px) {
+  body {
+    font-size: 1.5vw;
+  }
+
+  h1 {
+    font-size: 3vw;
+    margin-bottom: 1.5vh;
+  }
+
+  label,
+  input {
+    margin-bottom: 8px;
+  }
+
+  #email,
+  #name {
+    padding: 8px;
+  }
+
+  body > form > input[type="submit"] {
+    font-size: 1.2vw;
+  }
 }
