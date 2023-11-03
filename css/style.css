@@ -180,3 +180,7 @@ body {
 .form-v8-content .form-detail .register:hover {
   background: #ccc;
 }
+
+.form-v8-content .form-detail .form-row-last input {
+  padding: 11px;
+}
