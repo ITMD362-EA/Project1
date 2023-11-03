@@ -83,3 +83,19 @@ body {
   border-bottom-color: rgba(255, 255, 255, 0.2);
   width: 100%;
 }
+.form-v8-content .tab .tablinks.active {
+  font-weight: 700;
+  color: #fff;
+  border-bottom-color: #30e1df;
+}
+.form-v8-content .form-detail {
+  padding: 0 40px;
+}
+.form-v8-content .form-row {
+  width: 100%;
+  position: relative;
+}
+.form-v8-content .form-row .form-row-inner {
+  position: relative;
+  width: 100%;
+}
