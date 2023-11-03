@@ -184,3 +184,29 @@ body {
 .form-v8-content .form-detail .form-row-last input {
   padding: 11px;
 }
+
+@media screen and (max-width: 991px) {
+  .form-v8-content {
+    margin: 180px 20px;
+    flex-direction: column;
+  }
+  .form-v8-content .form-left {
+    width: 100%;
+  }
+  .form-v8-content .form-left img {
+    width: 100%;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 8px;
+  }
+  .form-v8-content .form-right {
+    width: auto;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 8px;
+  }
+  .form-v8-content .tab {
+    margin-top: 45px;
+  }
+  .form-v8-content .form-detail .register {
+    margin-bottom: 80px;
+  }
+}
