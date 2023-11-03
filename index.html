@@ -17,4 +17,78 @@
     />
   </head>
   <body class="form-v8"></body>
+  <div class="form-left">
+    <img
+      src="images/landscape.jpg"
+      width="100%"
+      height="100%"
+      alt="form"
+    />
+  </div>
+  <div class="form-right">
+    <form class="form-detail" action="submit_form.php" method="post">
+      <div
+        class="tabcontent"
+        id="sign-up"
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        "
+      >
+        <div style="margin-bottom: 30px">
+          <h2>Nils LLC Newsletter</h2>
+        </div>
+        <div class="form-row">
+          <label class="form-row-inner">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="input-text"
+              required
+            />
+            <span class="label">Name</span>
+            <span class="border"></span>
+          </label>
+        </div>
+        <div>
+          <label class="form-select-label">
+            <span class="label">Select your role</span>
+          </label>
+          <select class="form-select" id="experience" name="experience">
+            <option value="none">Marketer</option>
+            <option value="limited">Software Developer</option>
+            <option value="experienced">Other</option>
+          </select>
+        </div>
+        <div class="form-row" style="margin-top: 20px">
+          <label class="form-row-inner">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="input-text"
+              required
+            />
+            <span class="label">Email</span>
+            <span class="border"></span>
+          </label>
+        </div>
+        <div class="form-row-last" style="margin-top: 70px">
+          <input
+            type="submit"
+            name="register"
+            class="register"
+            value="Sign Up"
+          />
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+</body>
+</html>
 </html>
