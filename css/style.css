@@ -137,3 +137,46 @@ body {
   transform-origin: 0 0;
   transition: all 0.15s ease;
 }
+.form-v8-content .form-detail .input-text {
+  margin-bottom: 31px;
+}
+.form-v8-content .form-detail input {
+  width: 100%;
+  padding: 0px 10px 15px 10px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+  background: transparent;
+  appearance: unset;
+  outline: none;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+.form-v8-content .form-detail .form-row .input-text:focus {
+  border-bottom: 1px solid #53c83c;
+  background: transparent;
+}
+.form-v8-content .form-detail .form-row .input-text:focus + .label,
+.form-v8-content .form-detail .form-row .input-text:valid + .label {
+  transform: translateY(-26px) scale(1);
+}
+.form-v8-content .form-detail .form-row .input-text:focus + .border,
+.form-v8-content .form-detail .form-row .input-text:valid + .border {
+  transform: scaleX(1);
+}
+.form-v8-content .form-detail .register {
+  background: #fff;
+  border-radius: 5px;
+  width: 160px;
+  border: none;
+  margin: 5px 0 50px 0px;
+  cursor: pointer;
+  color: #333;
+  font-weight: 700;
+  font-size: 18px;
+}
+.form-v8-content .form-detail .register:hover {
+  background: #ccc;
+}
