@@ -7,7 +7,6 @@
 body {
   margin: 0;
 }
-
 .page-content {
   width: 100%;
   height: 100%;
@@ -48,6 +47,7 @@ body {
 .form-v8-content .form-left {
   margin-bottom: -4px;
 }
+
 .form-v8-content .form-left img {
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -99,7 +99,6 @@ body {
   position: relative;
   width: 100%;
 }
-
 .form-v8-content .form-row .form-row-inner .label {
   position: absolute;
   top: -2px;
@@ -110,7 +109,6 @@ body {
   transform-origin: 0 0;
   transition: all 0.2s ease;
 }
-
 .form-select-label {
   margin-left: 10px;
   font-size: 18px;
@@ -180,7 +178,6 @@ body {
 .form-v8-content .form-detail .register:hover {
   background: #ccc;
 }
-
 .form-v8-content .form-detail .form-row-last input {
   padding: 11px;
 }
